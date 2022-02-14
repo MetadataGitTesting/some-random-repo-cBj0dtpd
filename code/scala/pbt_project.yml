@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: eugenia.grady@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-14 15:36:58'
+    datasets:
+      inputs: []
+      outputs: []
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: null
@@ -74,4 +84,9 @@ workflows:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Cedrick_Padberg:
+    name: Cedrick_Padberg
+    description: Really solid info
+    createdAt: '2022-02-14 15:36:59'
+    author: eugenia.grady@yahoo.com
